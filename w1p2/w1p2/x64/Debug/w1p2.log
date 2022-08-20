@@ -1,0 +1,6 @@
+﻿  quiz.cpp
+w2p2.obj : error LNK2019: unresolved external symbol "int __cdecl quizzer::IsQuizValid(void)" (?IsQuizValid@quizzer@@YAHXZ) referenced in function main
+w2p2.obj : error LNK2019: unresolved external symbol "int __cdecl quizzer::HasMoreQuestions(void)" (?HasMoreQuestions@quizzer@@YAHXZ) referenced in function main
+w2p2.obj : error LNK2019: unresolved external symbol "void __cdecl quizzer::ShowNextQuestion(void)" (?ShowNextQuestion@quizzer@@YAXXZ) referenced in function main
+w2p2.obj : error LNK2019: unresolved external symbol "void __cdecl quizzer::ShowQuizResults(void)" (?ShowQuizResults@quizzer@@YAXXZ) referenced in function main
+G:\SENECA\SEMESTER 2\OOP 244\LABS\w1p2\x64\Debug\w1p2.exe : fatal error LNK1120: 4 unresolved externals

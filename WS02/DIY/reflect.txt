@@ -1,0 +1,10 @@
+/*
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		MAY 30, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+In this workshop, I have learned how to load the file into the program, and deal with memory leak issues. I overloaded the functions by changing the signature in the workshop, which consists of identifiers and parameter types. I learned to use "new" to allocate contiguous memory dynamically for an array of elements and return the address. In the part 1, I learned to write the code to load student information in a file into a dynamic array in the program. I created three overload functions to read student's name, number and grade. In addition, I learned bubble sort code to sort the dynamic array based on students' grades. In the load function, we need to copy the read name into the newly allocated name of student and set the number of students into a dynamic array pointed by Student pointer. However, we need to deallocate memory to prevent memory leakage. When I ran my program, it always said there is a memory leakage. I tried to debug for a few days but I failed. Thankfully, I asked Professor Pant, and he told me I forgot to close the file. Finally, I fixed the issue with the professor's help. 

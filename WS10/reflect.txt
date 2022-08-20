@@ -1,0 +1,7 @@
+//Name: Jiaheng Wang
+//ID:	180562217
+//Email:jwang522@myseneca.ca
+//Date:	Aug 8, 2022
+//Section: NKK
+
+In this workshop, I have learned to code function Templates. I can identify a new type named T in my function "find". Furthermore, I can identify class, long, short, and char to a new name as well. 

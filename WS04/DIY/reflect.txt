@@ -1,0 +1,10 @@
+/*
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		June 13, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+In the workshop 4, I learned how to create default and overloaded constructors and destructors. It is convenient to use constructors and destructors to complete encapsulation. In the constructors, we need to initialize each object to an empty state at first to avoid undefined behavior or broken objects. Then, we can define the default constructor with an empty body. We can initialize the objects to a default value. After that, we can use destructor to deallocate the dynamically allocated memory of an object before going out scope. Further, there are some challenges in this workshop. For example, there are some errors reported in my program called exception thrown (access violation reading location). To solve this issue, I asked Professor Pant, and he nicely advised me to check data validity before I use the data. But unfortunately, I forgot to move deallocation outside the validity check. Therefore, there is another issue that there are some memory leaks occurred. Also, the professor helped me to solve this problem patiently.

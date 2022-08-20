@@ -1,0 +1,4 @@
+﻿  Numbers.cpp
+G:\SENECA\SEMESTER 2\OOP 244\LABS\WS06\lab\Numbers.cpp(120,20): error C2039: 'getline': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iostream(19): message : see declaration of 'std'
+G:\SENECA\SEMESTER 2\OOP 244\LABS\WS06\lab\Numbers.cpp(120,27): error C3861: 'getline': identifier not found

@@ -1,0 +1,8 @@
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		July 8, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+
+In this workshop, I have learned to work with a class that holds dynamic and static resources. Moreover, I learned what are shallow copies and deep copies. I learned to copy the data members involving the use of copy constructors and assignment operators. In addition, I learned to use existing objects to create new ones or to assign values to existing objects based on other existing ones. For example, in the DIY part, I designed Basket Class, and I also produce different fruit baskets and copied the value by using the constructor. The difficulty in this workshop is that I forget to put down "std" when I code input and output operators in the header file in Part 1. Thus, there were lots of bugs reported in the terminal. After I checked the textbook, I recognized my mistake and figure it out. The standard input/output library overloads the extraction and insertion operators for each fundamental type for the file stream classes with file objects as left operands. Therefore, we cannot ignore it.

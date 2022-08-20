@@ -1,0 +1,22 @@
+ /*bool s1, s2, s3;        
+        if (read(stu.m_name)) { //"aquick" ['a' 'q' 'u' 'i' 'c' 'k' '\0']
+            stu.m_name = new char[strlen(name) + 1];
+            strcpy(stu.m_name, name);
+            s1 = true;
+        }
+        else {
+            s1 = false; 
+        }
+        if (read(stu.m_studentNumber)) {
+            s2 = true;
+        }
+        else {
+            s2 = false;
+        }
+        if (read(stu.m_grade)) {
+            s3 = true;
+        }
+        else {
+            s3 = false;
+        }
+        return s1 && s2 && s3;*/

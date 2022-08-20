@@ -1,0 +1,10 @@
+/*
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		July 14, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+In this workshop, I have learned to work with classes with a hierarchical structure. Firstly, I create a base class named "MemberPaliament" which holds common attributes such as ID, age, and district of Parliament Members. Then, I created the child class "Minister" which is a derived class inherited from the parent class "MemberPaliament". After that, I can shadow the base class "MemberPaliament" member function with the same identifier such as ID and age to the "Minister" class. Thus, I can access the shadowed member function that is defined in the base class. The issue I met in the workshop is that when we called shadowed functions that are defined in the "MemberPaliament" class in "Minister", we still cannot use the private members or functions. Therefore, we need to construct them in the public part first, and then we can access them in the child class. For example, I cannot use m_parliamentId, m_districtMP, and m_ageMP directly in the function "write" or "read" in "Minister" class. But I can call the function "write" or "read" in "MemberPaliament" instead of calling private members.

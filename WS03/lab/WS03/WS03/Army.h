@@ -1,0 +1,41 @@
+/*
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		June 2, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+
+#ifndef SDDS_AMRY_H
+#define SDDS_AMRY_H
+#include <iostream>
+#include <cstring>
+#include <iomanip>
+
+namespace sdds {
+
+	const int MAX_NAME_LEN = 50;
+
+	class Army {
+		char nationality[MAX_NAME_LEN];
+		int m_units;
+		double m_power;
+
+	public:
+
+		void setEmpty();
+		void createArmy(const char* country, double pow, int troops);
+		void updateUnits(int troops);
+		const char* checkNationality() const;
+		int checkCapacity() const;
+		double checkPower() const;
+		bool isEmpty() const;
+		bool isStrongerThan(const Army& army)const;
+	};
+	void battle(Army& arm1, Army& arm2);
+	void displayDetails(const Army* armies, int size);
+}
+
+#endif

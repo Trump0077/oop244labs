@@ -1,0 +1,10 @@
+/*
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		July 21, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+In this workshop, I learned to create pure virtual functions in iAccount Interface, which are for dynamic dispatching. Moreover, I created an abstract base class named Account holds the balance for an account, which can credit and debit an account transaction and can expose the current balance in the account. Then, I create two concrete classes, SavingsAccount and ChequingAccount, to create objects. Specifically, programmers can create objects and implement methods using a concrete class while not an abstract class. In addition, there are some issues that cause me difficulty in milestone 2. In the LibApp module, I wanted to use the "switch" to create the run() function, but it cannot accomplish the requirements of the instruction. The reason is that when I used "break" in "switch", it not only broke "switch", and it also jumped out the "while" iteration. To solve the problem, I used the "if" condition statement instead of "switch", and use "break" when I need it to stop the loop.

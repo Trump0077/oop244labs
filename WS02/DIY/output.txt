@@ -1,0 +1,46 @@
+V1.1 corrected the data file records
+Enter data file name: bd.csv
+Birthdate search program
+Enter a month of birth or 0 to exit: 11
+13 birthdates found:
+1) Chelsea Douglas:
+1941-11-18
+===================================
+2) Savana Morgan:
+1942-11-28
+===================================
+3) Joyce Moore:
+1943-11-15
+===================================
+4) Bruce Howard:
+1949-11-6
+===================================
+5) Nicole Andrews:
+1962-11-5
+===================================
+6) Madaline Wells:
+1968-11-1
+===================================
+7) Eddy Cameron:
+1970-11-18
+===================================
+8) James Payne:
+1974-11-28
+===================================
+9) Chelsea Murphy:
+1976-11-25
+===================================
+10) Antony Perry:
+1989-11-6
+===================================
+11) Ellia Craig:
+1991-11-6
+===================================
+12) Dainton Bailey:
+1997-11-7
+===================================
+13) Kevin Martin:
+1998-11-3
+===================================
+Enter a month of birth or 0 to exit: 0
+Birthdate Search Program Closed.

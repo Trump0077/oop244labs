@@ -1,0 +1,10 @@
+/*
+NAME:		JIAHENG WANG
+EMAIL:		JWANG522@MYSENECA.CA
+STUDENT ID:	180562217
+DATE:		June 2, 2022
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+In this workshop, I learned how to define a class type. I can privatize data within the class type and instantiate an object of class type. For example, in the DIY part, I privatize m_title, m_bar, m_fillCharacter, m_noOfSamples, and m_addSamples, which cannot be modified out of the Barchart class. In addition, I used member functions to query and change the state of the object. I create some public functions, which can be called by the main function. In the process of coding, the tough part in this workshop is that output the format data as displayed. I did not know how to print strings and fill some characters to the same column in the Bar module of the DIY part. I googled on the Internet, and finally I learned to use setfill function to figure the issue out. Also, I used this function to print 71 dashes ('-') instead of for loop in BarChart module.
